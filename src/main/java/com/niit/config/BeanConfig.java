@@ -8,7 +8,7 @@ public class BeanConfig {
 
     @Bean
     public Employee getEmployee(){
-        return new Employee();
+        return new Employee(179, "Initial Employee", "House- 47, Mg-Road", getDepartment());
     }
 
     @Bean
