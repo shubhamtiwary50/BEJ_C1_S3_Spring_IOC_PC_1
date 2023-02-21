@@ -7,12 +7,12 @@ import org.springframework.context.annotation.Bean;
 public class BeanConfig {
 
     @Bean
-    public Employee getEmployee(){
+    public Employee getEmployee() {
         return new Employee(179, "Initial Employee", "House- 47, Mg-Road", getDepartment());
     }
 
     @Bean
-     public Department getDepartment(){
-         return new Department("IOC Department","6.0.5");
-     }
+    public Department getDepartment() {
+        return new Department("IOC Department", "6.0.5");
+    }
 }

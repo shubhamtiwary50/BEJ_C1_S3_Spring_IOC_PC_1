@@ -7,15 +7,12 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 
 /**
  * Hello world!
- *
  */
-public class App 
-{
-    public static void main( String[] args )
-    {
+public class App {
+    public static void main(String[] args) {
 //        System.out.println( "Hello World!" );
         ApplicationContext applicationContext = new AnnotationConfigApplicationContext(BeanConfig.class);
-        Employee employee= applicationContext.getBean(Employee.class);
+        Employee employee = applicationContext.getBean(Employee.class);
         System.out.println(employee);
     }
 }

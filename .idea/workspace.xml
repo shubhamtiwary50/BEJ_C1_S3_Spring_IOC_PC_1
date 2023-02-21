@@ -1,14 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="66ecfad5-5db6-47ed-be61-cf91dd677ae4" name="Changes" comment="" />
+    <list default="true" id="66ecfad5-5db6-47ed-be61-cf91dd677ae4" name="Changes" comment="Added the auto wired annotation in the Department property of Employee">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2M30Q5rwjIt89bQwnwvK1kSbusF" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -16,9 +36,30 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.niit.App" />
+      <module name="BEJ_C1_S3_Spring_IOC_PC_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.niit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -28,6 +69,120 @@
       <option name="presentableId" value="Default" />
       <updated>1676980941030</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit.">
+      <created>1676980981598</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676980981598</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added dependency :spring context">
+      <created>1676981063566</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676981063566</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added Domain package and created pojo classes in it for : Employee and Department">
+      <created>1676981188133</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676981188133</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added Configuration package and created a bean config java class in it.">
+      <created>1676981257461</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676981257461</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added attributes in employee class.">
+      <created>1676981475689</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676981475689</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added attributes in department class.">
+      <created>1676981555248</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676981555248</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Populated the department class with constructor, getter setter, toString, hashcode and equals.">
+      <created>1676981706553</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676981706553</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Populated the Employee class with constructor, getter setter, toString, hashcode and equals.">
+      <created>1676981830905</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676981830905</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Done with the bean config file only minor changes remain now.">
+      <created>1676982338928</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1676982338928</updated>
+    </task>
+    <task id="LOCAL-00010" summary="The implementation class.">
+      <created>1676982802682</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1676982802682</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Minor changes in the BeanConfig class">
+      <created>1676984176790</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1676984176790</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added the auto wired annotation in the Department property of Employee">
+      <created>1676984219642</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1676984219643</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit." />
+    <MESSAGE value="Added dependency :spring context" />
+    <MESSAGE value="Added Domain package and created pojo classes in it for : Employee and Department" />
+    <MESSAGE value="Added Configuration package and created a bean config java class in it." />
+    <MESSAGE value="Added attributes in employee class." />
+    <MESSAGE value="Added attributes in department class." />
+    <MESSAGE value="Populated the department class with constructor, getter setter, toString, hashcode and equals." />
+    <MESSAGE value="Populated the Employee class with constructor, getter setter, toString, hashcode and equals." />
+    <MESSAGE value="Done with the bean config file only minor changes remain now." />
+    <MESSAGE value="The implementation class." />
+    <MESSAGE value="Minor changes in the BeanConfig class" />
+    <MESSAGE value="Added the auto wired annotation in the Department property of Employee" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the auto wired annotation in the Department property of Employee" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
